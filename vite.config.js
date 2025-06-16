@@ -31,6 +31,7 @@ export default defineConfig({
        * @see https://vitejs.dev/config/dep-optimization-options
        */
       include: [],
+      noExternal: ['@shopify/hydrogen'],
     },
   },
 });
