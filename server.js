@@ -1,4 +1,5 @@
-import { createRequestHandler } from "@remix-run/vercel";
-import * as build from "@remix-run/dev/server-build";
+import { createRequestHandler } from "@shopify/remix-oxygen";
 
-export default createRequestHandler({ build });
+const handler = createRequestHandler();
+
+export default handler;

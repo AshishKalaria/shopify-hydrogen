@@ -5,6 +5,7 @@
     "module": "ES2022",
     "moduleResolution": "Bundler",
     "baseUrl": ".",
+    "types": ["node"],
     "paths": {
       "~/*": [
         "app/*"
